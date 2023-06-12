@@ -1,11 +1,9 @@
-import { View, Text } from 'react-native';
+import { Heading, Box, Center, Container } from "native-base";
 
 export default HomeScreen = () => {
   return (
-    <View>
-      <Text>HomeScreen</Text>
-    </View>
+    <Center>
+      <Heading>HomeScreen</Heading>
+    </Center>
   );
 };
-
-

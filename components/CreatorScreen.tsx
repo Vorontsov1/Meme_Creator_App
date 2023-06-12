@@ -1,11 +1,9 @@
-import { View, Text } from 'react-native';
+import { Heading, Box, Center, Container } from "native-base";
 
 export default CreatorScreen = () => {
   return (
-    <View>
-      <Text>CreatorScreen</Text>
-    </View>
+    <Center>
+      <Heading>CreatorScreen</Heading>
+    </Center>
   );
 };
-
-
