@@ -40,7 +40,8 @@ const MemeSelector: React.FC<MemeProps> = (props) => {
           <Pressable
             key={meme.name}
             m={1}
-            onPress={() => memeSelected(meme)}
+            onPress={ () => memeSelected(meme) }
+            backgroundColor={props.activeMeme === meme.name ? "red.600" : "white"}
             shadow="2"
           >
             <Center p={1} >
